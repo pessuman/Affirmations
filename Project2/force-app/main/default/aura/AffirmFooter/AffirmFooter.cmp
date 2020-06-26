@@ -1,0 +1,9 @@
+<aura:component description= "footer" implements="forceCommunity:availableForAllPageTypes" access ="global">
+    <aura:attribute name= "footer" type= "String" default= "My Adinkra community" access ="global"/>
+    <aura:attribute name= "footerYear" type= "String" default= "2020" access ="global"/>
+    
+    <div class= "grid">
+        <span> {!v.footer}</span><br/>
+        <span>&copy; Copyright {!v.footerYear}</span>
+    </div>
+</aura:component>
