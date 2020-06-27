@@ -1,0 +1,5 @@
+<aura:component controller="getAdinkraController" implements= "forceCommunity:availableForAllPageTypes" access="global" >
+    
+    
+    
+</aura:component>

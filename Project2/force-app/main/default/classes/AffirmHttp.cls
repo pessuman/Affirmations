@@ -5,7 +5,7 @@ public class AffirmHttp {
         
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint('https://www.affirmations.dev');
+        request.setEndpoint('https://www.affirmations.dev/');
         request.setMethod('GET');
         HttpResponse response = http.send(request);
         // If the request is successful, parse the JSON response.
